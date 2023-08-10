@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* To Syle The Navigation */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+}
+.navigationHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+}
+.logo{
+    width: 169.846px;
+    height: 23px;
+}
+.navBar li{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+}
+.navBar .active a{
+    color: #065666;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navBar li a{
+    color: #636363;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+} 
+
+.greenButton{
+    border-radius: 16px;
+    border-color: #6FC247;
+    background: #6FC247;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
