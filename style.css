@@ -63,3 +63,40 @@ header{
     font-size: 20px;
     font-weight: 700;
 }
+/* To Style The Second section */
+.whiteButton{
+    border-radius: 16px;
+    border-color: white;
+    background: white;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+.container h1{
+    color: #373737;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+.container p{
+    color: #373737;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 32px;
+}
+.conditon{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
